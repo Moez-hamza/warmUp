@@ -10,7 +10,7 @@ function isArray(arr) {
 	} else {
 		return false 
 	}
-}
+} 
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -42,6 +42,7 @@ function convert (obj) {
 	var arr = []
 		arr.push(Object.keys(obj))
 		arr.push(Object.values(obj))
+
 			return arr 
 } 
 
