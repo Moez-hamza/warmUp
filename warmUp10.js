@@ -41,9 +41,9 @@ function sum(x,y) {
 	} if (y===0){
 		return x 
 	} if (x<y) { 
-return inc(add(x,dec(y)))
+return inc(sum(x,dec(y)))
 }
-return inc(add(dec(x),y))
+return inc(sum(dec(x),y))
 }
 
 
