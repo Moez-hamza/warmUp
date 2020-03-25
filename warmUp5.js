@@ -3,7 +3,7 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
-<<<<<<< HEAD
+
 function greaterNum(num1,num2) {
 	if (num1 > num2 ) {
 		return 'The greater number of '+num1+' and '+num2+' is '+num1 
@@ -49,13 +49,13 @@ function sum(x,y){
 	}
 return total 
 }
-=======
+
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
 
 
->>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
+
 //4) Write a function named factorial that
 // -  Use Recursion to calculate the factorial of a number
 // -  the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n
